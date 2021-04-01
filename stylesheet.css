@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 100%;
+  margin: 0 auto;
+  width: 99%;
+}
+
+.t1 a:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+.t2 a:active {
+  color: red;
+  font-style: italic;
+}
+
+.t3 a:visited {
+  color: yellow;
+  font-weight: bold;
+}
+
+input:focus {
+  color: green;
+  font-size: 20px;
+  border: 4px dashed blue;
+}
+
+nav ul li {
+  float: left;
+  padding: 7px;
+  list-style-type: none;
+  background-color: rgb(37, 37, 214);
+}
+
+nav ul li a {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  text-decoration: none;
+}
+.currentPage {
+  padding: 7px;
+  padding-left: 0px;
+  list-style-type: none;
+  background-color: grey;
+}
+
+nav ul li a:hover {
+  background-color: lightblue;
+}
+nav ul li a:visited {
+  color: green;
+}
